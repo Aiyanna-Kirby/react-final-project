@@ -3,24 +3,24 @@ import React from "react";
 const Landing = () => {
   return (
     <section id="landing">
-      <div class="container landing__container">
-        <div class="row landing__row">
-          <h1 class="search-bar__title">Browse an Endless Array of Anime</h1>
-          <form class="search__form">
+      <div className="container landing__container">
+        <div className="row landing__row">
+          <h1 className="search-bar__title">Browse an Endless Array of Anime</h1>
+          {/* <form className="search__form">
             <input
               type="search"
               placeholder="Browse Anime Here..."
               id="search-area"
-              class="search__area"
+              className="search__area"
             />
             <button
-              class="search__btn btn"
+              className="search__btn btn"
               id="search-button"
               onclick="searchAPI(event)"
             >
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <i className="fa-solid fa-magnifying-glass"></i>
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
